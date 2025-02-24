@@ -1,0 +1,235 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+  width: 1440px;
+  height: 104px;
+  padding-bottom: 24px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 24px;
+  border-top: 6px solid whitesmoke;
+}
+.header .container{
+  width: 1280px;
+  height: 56px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .logo{
+  display: flex;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header .container .taskbar{
+  width: 437px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-around;
+}
+.header .container .taskbar a{
+  color: black;
+  text-decoration: none;
+}
+.header .container .button button{
+  width: 153px;
+  height: 56px;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom:16px;
+  background-color: black;
+  color: white;
+}
+.main{
+  width: 1440px;
+  height: 716px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.main .container{
+  width: 1280px;
+  height: 596px;
+  padding-right: 32px;
+  padding-left: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .banner2{
+  width: 889px;
+  height: 596px;
+}
+.main .banner1{
+  width: 600px;
+  height: 376px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.main .banner1 .info1{
+  width: 600px;
+  height: 208px;
+  line-height: 60px;
+}
+.main .banner1 .info2{
+  width: 600px;
+  height: 96px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+.main .button{
+  width: 320px;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+.main .button .button1 button{
+  object-fit:fill;
+}
+.main .button .button2{
+  width: 56px;
+  height: 56px;
+}
+.main .button .button3{
+  width: 56px;
+  height: 56px;
+}
+.main .button .button4{
+  width: 56px;
+  height: 56px;
+}
+.main2{
+  width: 1440px;
+  height: 728px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.main2 .container1{
+  text-align: center;
+}
+.main .container2{
+  width: 1216px;
+  height: 492px;
+    padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main2 .container2 .skill1{
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-style: solid;
+}
+.main2 .container2 .skill2{
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-style: solid;
+}
+.main2 .container2 .skill3{
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-style: solid;
+}
+.main2 .container2 .skill4{
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-style: solid;
+}
+.main2 .container2 .skill5{
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-style: solid;
+}
+.main2 .container2 .row1{
+  width: 1216px;
+  height: 226px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main2 .container2 .row2{
+  width: 1216px;
+  height: 226px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main3{
+  width: 1440px;
+  height: 956px;
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.main3 .container1{
+  color: white;
+  text-align: center;
+  padding-right:32px;
+  padding-left:32px;
+  gap:20px;
+}
+.main .container2{
+  width:1,216px;
+  height:720px;
+  padding-top:40px ;
+  padding-bottom:40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap:32px;
+}
